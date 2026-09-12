@@ -1,0 +1,36 @@
+/* Configuración de desplazamiento suave */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Margen superior para compensar el header fijo */
+section {
+    scroll-margin-top: 80px;
+}
+
+/* Estilos de la barra lateral (Sidebar) */
+.sidebar .nav-link {
+    color: #495057;
+    border-left: 3px solid transparent;
+    border-radius: 0;
+    padding: 0.6rem 1rem;
+    font-size: 0.95rem;
+}
+
+.sidebar .nav-link:hover {
+    background-color: #e9ecef;
+    color: #0d6efd;
+}
+
+/* Estado activo administrado automáticamente por el Scrollspy de Bootstrap */
+.sidebar .nav-link.active {
+    background-color: #e7f1ff;
+    color: #0d6efd;
+    font-weight: bold;
+    border-left-color: #0d6efd;
+}
+
+/* Ajuste tipográfico e itálica para leyendas */
+.italic {
+    font-style: italic;
+}
